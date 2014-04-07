@@ -5,6 +5,7 @@ body {
   margin-left: 152px;
   margin-right:auto;
   padding-top: 63px;
+  padding-bottom: 90px;
 }
 
 h1{
@@ -43,8 +44,59 @@ h2{
   text-transform: uppercase;
   border-top: medium solid;
   border-bottom: thin solid;
-  letter-spacing: 5px;
+  letter-spacing: 5.3px;
 }
+
+dd{
+  overflow:hidden;
+  float:right;
+  width:80%;
+  margin-top: -19pt; 
+}
+
+.clearfix{
+  display:inline-block;
+}
+
+small{
+  font-size: 12pt;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-transform:lowercase;
+  font-weight: lighter;
+}
+
+.odd_week{
+  background-color: lavender;
+}
+
+
+.schedule{
+  font-family: Arial;
+  border:thin solid lavender;
+  width:800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0px 0px;
+}
+
+.week{
+  -webkit-transform: rotate(-90deg); 
+  text-transform:uppercase; 
+  border:none;
+}
+
+th{
+  background-color: black;
+  color: white;
+  font-weight: normal;
+  margin:0pt;
+}
+
+td{
+  border:thin solid silver;
+}
+
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
 /* Don't worry about it. Write your CSS rules above the dotted line. */
