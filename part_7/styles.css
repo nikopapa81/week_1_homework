@@ -20,3 +20,23 @@ a{
 	display: inline-block;
 	text-align: center;
 }
+
+.Horizontal_section{
+	clear:both;
+}
+
+.Triple_column{
+	float:left;
+	width:33%;
+}
+
+.Double_Column{
+	float:left;
+	width:66%;
+}
+
+.Quadruple_Column{
+	float:left;
+	width:25%;
+}
+
